@@ -30,12 +30,18 @@ function About() {
                 style={{ fontSize: "1em", display: "inline-block" }}
               />
             </h3>
+            <button class="flex mx-auto mt-16 text-white bg-yellow-500 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg">
+              <a href="https://drive.google.com/file/d/1qimMeJ8tqNOZ3rBPsRTdWGz0eWw373jk/view?usp=sharing">
+                RESUME
+              </a>
+            </button>
           </div>
+
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <img
               class="object-cover object-center rounded"
               alt="hero"
-              src="https://raw.githubusercontent.com/prankurpandeyy/github-imagehosting/main/IMG_20240505_170744.jpg"
+              src="https://raw.githubusercontent.com/prankurpandeyy/github-imagehosting/main/IMG_20240507_123930.jpg"
             />
           </div>
         </div>

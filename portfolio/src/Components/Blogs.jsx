@@ -19,8 +19,22 @@ function Blogs() {
   return (
     <div>
       {" "}
-      <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto">
+      <section class="text-gray-600 body-font" id="blogs">
+        <div class="container px-5 py-24  mx-auto">
+          <button class="inline-flex items-center bg-yellow-500 mb-16 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
+            BLOGS
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-4 h-4 ml-1"
+              viewBox="0 0 24 24"
+            >
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
           <div class="flex flex-wrap -m-4">
             {blogs.map((blog) => (
               <div class="p-4 md:w-1/3">

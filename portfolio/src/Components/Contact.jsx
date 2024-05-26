@@ -3,7 +3,23 @@ import React from "react";
 function Contact() {
   return (
     <div>
-      <section class="text-gray-600 body-font relative">
+      <div class="container px-5 py-24 mx-auto">
+        <button class="inline-flex items-center bg-yellow-500 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
+          CONTACT
+          <svg
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            class="w-4 h-4 ml-1"
+            viewBox="0 0 24 24"
+          >
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </button>
+      </div>
+      <section class="text-gray-600 body-font relative" id="contact">
         <div class="absolute inset-0 bg-gray-300">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14549.252711903175!2d80.7623567!3d24.2657895!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39838b399a495d21%3A0x25c8d35d8dc2695a!2sVayu%20Software%20Solutions!5e0!3m2!1shi!2sin!4v1716621805485!5m2!1shi!2sin"

@@ -18,9 +18,9 @@ function Projects() {
   }, []);
   return (
     <div>
-      <section class="text-gray-600 body-font">
+      <section class="text-gray-600 body-font" id="projects">
         <div class="container px-5 py-24 mx-auto">
-          <button class="inline-flex items-center bg-yellow-500 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
+          <button class="inline-flex items-center bg-yellow-500  border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base  md:mt-0">
             PROJECTS
             <svg
               fill="none"
@@ -45,7 +45,7 @@ function Projects() {
                   <img
                     alt="team"
                     class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-                    src="https://raw.githubusercontent.com/prankurpandeyy/github-imagehosting/main/IMG_20240505_170744.jpg"
+                    src="https://avatars.githubusercontent.com/u/105973148?v=4"
                   />
                   <div class="flex-grow sm:pl-8">
                     <h2 class="title-font font-medium text-lg text-gray-900">

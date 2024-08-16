@@ -6,7 +6,7 @@ function Projects() {
   const fetchProjects = async () => {
     try {
       const data = axios
-        .get("https://api.github.com/orgs/vayusoftwares/repos")
+        .get("https://api.github.com/orgs/atdsoftwares/repos")
         .then((data) => setProjects(data.data));
     } catch (error) {
       console.log(error);

@@ -70,7 +70,8 @@ const Portfolio1 = () => {
                 href: "#about",
                 icon: <User className="w-4 h-4" />,
                 label: "About",
-              },{
+              },
+              {
                 href: "#skills",
                 icon: <User className="w-4 h-4" />,
                 label: "Skill",
@@ -154,7 +155,10 @@ const Portfolio1 = () => {
           </p>
         </section>
         {/* SKILLS */}
-        <section id="skills" className="bg-yellow-300 p-8 border-8 border-black">
+        <section
+          id="skills"
+          className="bg-yellow-300 p-8 border-8 border-black"
+        >
           <h2 className="text-4xl font-bold mb-4">Skills </h2>
           <div className="flex justify-center items-center space-x-4 bg-yellow-300">
             <IconCloudDemo />
@@ -206,15 +210,18 @@ const Portfolio1 = () => {
                 </CardContent>
                 <CardFooter>
                   <Button className="bg-black text-white hover:bg-white hover:text-black border-2 border-black transition-colors">
-                    <a href={project.url} target="_blank">
+                    <a href={project.html_url} target="_blank">
                       {" "}
-                      Visit Site
+                      View Source Code
                     </a>
                   </Button>
                 </CardFooter>
                 <CardFooter>
                   <Button className="bg-black text-white hover:bg-white hover:text-black border-2 border-black transition-colors">
-                    <a href={project.homepage}> Demo </a>
+                    <a href={project.homepage} target="_blank">
+                      {" "}
+                      Demo{" "}
+                    </a>
                   </Button>
                 </CardFooter>
               </Card>

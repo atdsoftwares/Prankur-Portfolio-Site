@@ -1,6 +1,6 @@
 import { TypeAnimation } from "react-type-animation";
 import { Button } from "@/components/ui/button";
-import FlickeringGrid from "@/components/magicui/flickering-grid";
+
 import {
   Card,
   CardContent,
@@ -11,11 +11,11 @@ import {
 } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Briefcase, Code, FileText, Home, Mail, User } from "lucide-react";
+import { Briefcase, Code, FileText, Home, User } from "lucide-react";
 import { useEffect, useState } from "react";
 import { IconCloudDemo } from "./IconCloudDemo";
-import IconCloud from "./components/magicui/icon-cloud";
-import { FlickeringGridDemo } from "./FlickeringGridDemo";
+
+
 
 const Portfolio1 = () => {
   const [posts, setPosts] = useState([]);
@@ -145,7 +145,7 @@ const Portfolio1 = () => {
         <section id="about" className="bg-pink-300 p-8 border-8 border-black">
           <h2 className="text-4xl font-bold mb-4">About Me</h2>
           <p className="text-xl">
-            I'm Prankur Pandey, a passionate developer specializing in
+            I am Prankur Pandey, a passionate developer specializing in
             full-stack web and mobile application development. With a strong
             command of the MERN stack (MongoDB, Express.js, React, Node.js) and
             React Native for mobile apps, I focus on building responsive and
@@ -309,16 +309,6 @@ const Portfolio1 = () => {
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center ">
             <a
               className="mr-5 hover:text-gray-900"
-              href="https://facebook.com/prankurpandeyy"
-            >
-              <img
-                src="https://raw.githubusercontent.com/prankurpandeyy/github-imagehosting/main/5296499_fb_facebook_facebook%20logo_icon.png"
-                alt="facebook"
-                className="h-10 w-10"
-              />
-            </a>
-            <a
-              className="mr-5 hover:text-gray-900"
               href="https://linkedin.com/in/prankurpandeyy"
             >
               <img
@@ -345,16 +335,6 @@ const Portfolio1 = () => {
                 src="https://raw.githubusercontent.com/prankurpandeyy/github-imagehosting/main/5296520_bubble_chat_mobile_whatsapp_whatsapp%20logo_icon.png"
                 alt="facebook"
                 className="h-10 w-10"
-              />
-            </a>
-            <a
-              className="mr-5 hover:text-gray-900"
-              href="https://youtube.com/@prankurpandeyy"
-            >
-              <img
-                src="https://raw.githubusercontent.com/prankurpandeyy/github-imagehosting/main/5296521_play_video_vlog_youtube_youtube%20logo_icon.svg"
-                alt="facebook"
-                classNameName="h-10 w-10"
               />
             </a>
             <a

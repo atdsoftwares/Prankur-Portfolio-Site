@@ -130,9 +130,15 @@ const Portfolio1 = () => {
               repeat={Infinity}
             />
           </p>
-          <Button className="bg-black text-white text-xl py-6 px-8 rounded-none hover:bg-white hover:text-black border-4 border-black transition-colors">
-            Get In Touch
-          </Button>
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=pprankur@gmail.com&su=Want+to+work+with+you&body=Hello+Prankur,+I+need+your+help+to+do+some+software+development+work.+Please+share+your+availability."
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button className="bg-black text-white text-xl py-6 px-8 rounded-none hover:bg-white hover:text-black border-4 border-black transition-colors">
+              Get In Touch
+            </Button>
+          </a>
         </section>
 
         {/* About Section */}
@@ -212,7 +218,7 @@ const Portfolio1 = () => {
                   <Button className="bg-black text-white hover:bg-white hover:text-black border-2 border-black transition-colors">
                     <a href={project.html_url} target="_blank">
                       {" "}
-                      View Source Code
+                      Code
                     </a>
                   </Button>
                 </CardFooter>
@@ -241,7 +247,9 @@ const Portfolio1 = () => {
                 </CardHeader>
                 <CardFooter>
                   <Button className="bg-black text-white hover:bg-white hover:text-black border-2 border-black transition-colors">
-                    Read More
+                    <a href={post.canonical_url} target="_blank">
+                      Read More
+                    </a>
                   </Button>
                 </CardFooter>
               </Card>
@@ -282,17 +290,6 @@ const Portfolio1 = () => {
 
       {/* Footer */}
       <footer className="bg-black text-white p-4 mt-12">
-        {/* <div className="container mx-auto flex justify-between items-center">
-          <p>&copy; 2023 John Doe. All rights reserved.</p>
-          <div className="flex space-x-4">
-            <a href="#" className="hover:underline">
-              Privacy Policy
-            </a>
-            <a href="#" className="hover:underline">
-              Terms of Service
-            </a>
-          </div>
-        </div> */}
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
             <svg

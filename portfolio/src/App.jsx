@@ -6,7 +6,8 @@ import { FlickeringGridDemo } from "./FlickeringGridDemo";
 function App() {
   return (
     <div>
-      <Portfolio1 />
+      {/* <Portfolio1 /> */}
+      <h1>text</h1>
     </div>
   );
 }

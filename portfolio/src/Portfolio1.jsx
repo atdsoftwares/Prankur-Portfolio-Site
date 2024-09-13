@@ -237,7 +237,7 @@ const Portfolio1 = () => {
               <Card key={index} className="border-4 border-black bg-green-300">
                 <CardHeader>
                   <CardTitle>{post.title}</CardTitle>
-                  <CardDescription>{post.date}</CardDescription>
+                  <CardDescription>{post.published_at}</CardDescription>
                 </CardHeader>
                 <CardFooter>
                   <Button className="bg-black text-white hover:bg-white hover:text-black border-2 border-black transition-colors">

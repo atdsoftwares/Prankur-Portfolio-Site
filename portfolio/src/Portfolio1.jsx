@@ -15,8 +15,6 @@ import { Briefcase, Code, FileText, Home, User } from "lucide-react";
 import { useEffect, useState } from "react";
 import { IconCloudDemo } from "./IconCloudDemo";
 
-
-
 const Portfolio1 = () => {
   const [posts, setPosts] = useState([]);
   const [repos, setRepos] = useState([]);
@@ -130,15 +128,15 @@ const Portfolio1 = () => {
               repeat={Infinity}
             />
           </p>
-          <a
-            href="https://mail.google.com/mail/?view=cm&fs=1&to=pprankur@gmail.com&su=Want+to+work+with+you&body=Hello+Prankur,+I+need+your+help+to+do+some+software+development+work.+Please+share+your+availability."
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Button className="bg-black text-white text-xl py-6 px-8 rounded-none hover:bg-white hover:text-black border-4 border-black transition-colors">
+          <Button className="bg-black text-white text-xl py-6 px-8 rounded-none hover:bg-white hover:text-black border-4 border-black transition-colors">
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=pprankur@gmail.com&su=Want+to+work+with+you&body=Hello+Prankur,+I+need+your+help+to+do+some+software+development+work.+Please+share+your+availability."
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Get In Touch
-            </Button>
-          </a>
+            </a>
+          </Button>
         </section>
 
         {/* About Section */}
